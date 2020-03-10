@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Biruk Tesfaye L.</title>
+    <link rel="icon" href="./assets/images/avatar.ico">
     <!-- <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script> -->
@@ -34,23 +35,50 @@
         <td>
             <table>
                 <tr><td>
-            <h3>Contact Us...</h3>
+            <h3>Contact Me...</h3>
         </td></tr>
             <tr>
             <form method="POST" action="mailto:birukdon16@gmail.com" enctype="utf-8">
                 <td><label for=Fname>First Name: </label> </td>
-                <td><input type="text" id="Fname" name="fName"></td>
+                <td><input type="text" id="Fname" name="fName" minlength="2" size="20"
+                    pattern="[A-Za-z]+"  required title="Only letters with no space"></td>
                 </tr>
         
                 <tr>
                 <td><label for=sName>Second Name: </label></td>
-                <td><input type="text" id="sName" name="sName"></td>
+                <td><input type="text" id="sName" name="sName" minlength="2" size="20"
+                    pattern="[A-Za-z]+"  required title="Only letters with no space"></td>
                 </tr>
         
                 <tr>
                 <td><label for=email>Email: </label></td>
                 <td><input type="email" id="email" name="email"></td>
                 </tr>
+
+
+                <tr>
+                    <td><label for=pass>Password: </label></td>
+                    <td><input type=<input type="password" id="pass" name="pass"
+                        
+                        pattern="[A-Za-z0-9]+" title="Only letters and numbers">
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for=tel>Phone Number: </label></td>
+                        <td><input type="tel" id="tel" name="tel" pattern="[0-9]+" title="Only numbers">
+                            
+                            
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for=url>Website link: </label></td>
+                            <td><input type="url" id="url" name="url">
+                            </td>
+                            </tr
+
+                        
         
                 <tr> <td> Country:</td>
                     <td> <select name="country" id="">
