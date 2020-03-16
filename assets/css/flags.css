@@ -1,0 +1,404 @@
+body{
+    background-color: gray;
+}
+.arrange{
+    
+        margin-left: 10%;
+        
+}
+
+#NET{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: white;
+    position: relative;
+}
+
+#NET:before{
+    background-color: #AE1C28;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#NET:after{
+    background-color: #21468B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+/* -------------------------------- */
+
+#AUS{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: white;
+    position: relative;
+}
+
+#AUS:before{
+    background-color:#ed2939;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#AUS:after{
+    background-color:#ed2939;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+/* -------------------------------- */
+
+#YEM{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: white;
+    position: relative;
+}
+
+#YEM:before{
+    background-color:#ce1126;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#YEM:after{
+    background-color:#000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+   
+}
+
+/* -------------------------------- */
+
+#BUL{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: #00966e;
+    position: relative;
+}
+
+#BUL:before{
+    background-color:#ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#BUL:after{
+    background-color:#d62612;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+/* -------------------------------- */
+
+#COL{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: #003087;
+    position: relative;
+}
+
+#COL:before{
+    background-color: #FFCD00;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 150px;
+    
+}
+
+#COL:after{
+    background-color:#C8102E;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 75px;
+    
+}
+
+
+/* -------------------------------- */
+
+#UKR{
+    float: left;
+    width: 30%;
+    height:300px;
+    
+    background-color: #ffd500;
+    position: relative;
+}
+
+#UKR:before{
+    background-color:#005bbb;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 150px;
+    
+}
+
+
+
+/* -------------------------------- */
+
+#EST{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color: black;
+    position: relative;
+}
+
+#EST:before{
+    background-color:#0072ce;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#EST:after{
+    background-color:white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+/* -------------------------------- */
+
+#SIE:before{
+    background-color:#1eb53a;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#SIE{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color:  #ffffff;
+    position: relative;
+}
+
+
+
+#SIE:after{
+    background-color:#0072c6;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+/* -------------------------------- */
+
+#GAB:before{
+    background-color:#009E60;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#GAB{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color: #FCD116;
+    position: relative;
+}
+
+
+
+#GAB:after{
+    background-color:#3A75C4;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+/* -------------------------------- */
+
+#GER:before{
+    background-color:#000000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#GER{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color:  #dd0000;
+    position: relative;
+}
+
+
+
+#GER:after{
+    background-color:#ffce00;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+/* -------------------------------- */
+
+#LIT:before{
+    background-color:#FDB913;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#LIT{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color:  #006A44;
+    position: relative;
+}
+
+
+
+#LIT:after{
+    background-color:#C1272D;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+/* -------------------------------- */
+
+#LUX:before{
+    background-color:#F6343F;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+#LUX{
+    float: left;
+    width: 30%;
+    height:300px;
+    background-color:  #ffffff;
+    position: relative;
+}
+
+
+
+#LUX:after{
+    background-color:#00A2E1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    
+}
+
+
