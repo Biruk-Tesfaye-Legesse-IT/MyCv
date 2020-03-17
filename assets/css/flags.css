@@ -1,14 +1,45 @@
 body{
-    background-color: gray;
+    background-color: skyblue;
 }
-.arrange{
-    
-        margin-left: 10%;
-        
+header{
+    background-color: rgba(119, 90, 90, 0.4);
+    /* position: fixed; */
+    width: 20%;
 }
 
-#NET{
+nav > ul >li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+        
+
+
+.flag{
+    margin: 1.66%;
+    
+}
+
+
+p{
+    margin: 1.66%;
     float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    position: relative;
+}
+
+
+
+#NETHERLAND{
+    float: left;
+    
     width: 30%;
     height:300px;
     
@@ -16,7 +47,7 @@ body{
     position: relative;
 }
 
-#NET:before{
+#NETHERLAND:before{
     background-color: #AE1C28;
     position: absolute;
     top: 0;
@@ -27,7 +58,7 @@ body{
     
 }
 
-#NET:after{
+#NETHERLAND:after{
     background-color: #21468B;
     position: absolute;
     bottom: 0;
@@ -39,10 +70,13 @@ body{
 }
 
 
+
+
 /* -------------------------------- */
 
-#AUS{
+#AUSTRIA{
     float: left;
+    
     width: 30%;
     height:300px;
     
@@ -50,7 +84,7 @@ body{
     position: relative;
 }
 
-#AUS:before{
+#AUSTRIA:before{
     background-color:#ed2939;
     position: absolute;
     top: 0;
@@ -61,7 +95,7 @@ body{
     
 }
 
-#AUS:after{
+#AUSTRIA:after{
     background-color:#ed2939;
     position: absolute;
     bottom: 0;
@@ -74,8 +108,9 @@ body{
 
 /* -------------------------------- */
 
-#YEM{
+#YEMEN{
     float: left;
+    
     width: 30%;
     height:300px;
     
@@ -83,7 +118,7 @@ body{
     position: relative;
 }
 
-#YEM:before{
+#YEMEN:before{
     background-color:#ce1126;
     position: absolute;
     top: 0;
@@ -94,7 +129,7 @@ body{
     
 }
 
-#YEM:after{
+#YEMEN:after{
     background-color:#000000;
     position: absolute;
     bottom: 0;
@@ -107,8 +142,9 @@ body{
 
 /* -------------------------------- */
 
-#BUL{
+#BULGARIA{
     float: left;
+    
     width: 30%;
     height:300px;
     
@@ -116,7 +152,7 @@ body{
     position: relative;
 }
 
-#BUL:before{
+#BULGARIA:before{
     background-color:#ffffff;
     position: absolute;
     top: 0;
@@ -127,7 +163,7 @@ body{
     
 }
 
-#BUL:after{
+#BULGARIA:after{
     background-color:#d62612;
     position: absolute;
     bottom: 0;
@@ -140,7 +176,7 @@ body{
 
 /* -------------------------------- */
 
-#COL{
+#COLOMBIA{
     float: left;
     width: 30%;
     height:300px;
@@ -149,7 +185,7 @@ body{
     position: relative;
 }
 
-#COL:before{
+#COLOMBIA:before{
     background-color: #FFCD00;
     position: absolute;
     top: 0;
@@ -160,7 +196,7 @@ body{
     
 }
 
-#COL:after{
+#COLOMBIA:after{
     background-color:#C8102E;
     position: absolute;
     bottom: 0;
@@ -174,8 +210,9 @@ body{
 
 /* -------------------------------- */
 
-#UKR{
+#UKRAINE{
     float: left;
+    
     width: 30%;
     height:300px;
     
@@ -183,7 +220,7 @@ body{
     position: relative;
 }
 
-#UKR:before{
+#UKRAINE:before{
     background-color:#005bbb;
     position: absolute;
     top: 0;
@@ -198,15 +235,16 @@ body{
 
 /* -------------------------------- */
 
-#EST{
+#ESTONIA{
     float: left;
+   
     width: 30%;
     height:300px;
     background-color: black;
     position: relative;
 }
 
-#EST:before{
+#ESTONIA:before{
     background-color:#0072ce;
     position: absolute;
     top: 0;
@@ -217,7 +255,7 @@ body{
     
 }
 
-#EST:after{
+#ESTONIA:after{
     background-color:white;
     position: absolute;
     bottom: 0;
@@ -230,7 +268,7 @@ body{
 
 /* -------------------------------- */
 
-#SIE:before{
+#SIERRA_LIONNE:before{
     background-color:#1eb53a;
     position: absolute;
     top: 0;
@@ -241,8 +279,9 @@ body{
     
 }
 
-#SIE{
+#SIERRA_LIONNE{
     float: left;
+    
     width: 30%;
     height:300px;
     background-color:  #ffffff;
@@ -251,7 +290,7 @@ body{
 
 
 
-#SIE:after{
+#SIERRA_LIONNE:after{
     background-color:#0072c6;
     position: absolute;
     bottom: 0;
@@ -265,7 +304,7 @@ body{
 
 /* -------------------------------- */
 
-#GAB:before{
+#GABON:before{
     background-color:#009E60;
     position: absolute;
     top: 0;
@@ -276,7 +315,7 @@ body{
     
 }
 
-#GAB{
+#GABON{
     float: left;
     width: 30%;
     height:300px;
@@ -286,7 +325,7 @@ body{
 
 
 
-#GAB:after{
+#GABON:after{
     background-color:#3A75C4;
     position: absolute;
     bottom: 0;
@@ -300,7 +339,7 @@ body{
 
 /* -------------------------------- */
 
-#GER:before{
+#GERMAN:before{
     background-color:#000000;
     position: absolute;
     top: 0;
@@ -311,8 +350,9 @@ body{
     
 }
 
-#GER{
+#GERMAN{
     float: left;
+
     width: 30%;
     height:300px;
     background-color:  #dd0000;
@@ -321,7 +361,7 @@ body{
 
 
 
-#GER:after{
+#GERMAN:after{
     background-color:#ffce00;
     position: absolute;
     bottom: 0;
@@ -334,7 +374,7 @@ body{
 
 /* -------------------------------- */
 
-#LIT:before{
+#LITHUANIA:before{
     background-color:#FDB913;
     position: absolute;
     top: 0;
@@ -345,8 +385,9 @@ body{
     
 }
 
-#LIT{
+#LITHUANIA{
     float: left;
+   
     width: 30%;
     height:300px;
     background-color:  #006A44;
@@ -355,7 +396,7 @@ body{
 
 
 
-#LIT:after{
+#LITHUANIA:after{
     background-color:#C1272D;
     position: absolute;
     bottom: 0;
@@ -369,7 +410,7 @@ body{
 
 /* -------------------------------- */
 
-#LUX:before{
+#LUXEMBERG:before{
     background-color:#F6343F;
     position: absolute;
     top: 0;
@@ -380,8 +421,9 @@ body{
     
 }
 
-#LUX{
+#LUXEMBERG{
     float: left;
+   
     width: 30%;
     height:300px;
     background-color:  #ffffff;
@@ -390,7 +432,7 @@ body{
 
 
 
-#LUX:after{
+#LUXEMBERG:after{
     background-color:#00A2E1;
     position: absolute;
     bottom: 0;
