@@ -4,7 +4,8 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 header{
     background-color: rgba(119, 90, 90, 0.4);
     /* position: fixed; */
-    width: 100%;
+    width: 30%;
+    padding-left: 40px;
 }
 
 nav > ul >li{
