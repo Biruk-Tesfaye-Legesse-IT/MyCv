@@ -1,5 +1,6 @@
 body{
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    background-repeat: repeat ;
     /* border: solid 10px lightgrey; */
     margin: 10px;
 }
@@ -19,7 +20,7 @@ section{
 }
 
 article{
-    line-height: 25px;
+    line-height: 150%;
     text-align: justify;
     font-size: 150%;
 }
@@ -106,3 +107,6 @@ button{
     
 }
 
+.blogi{
+    float: none;
+}
