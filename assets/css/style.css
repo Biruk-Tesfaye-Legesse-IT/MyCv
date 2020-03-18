@@ -21,17 +21,17 @@ section{
 article{
     line-height: 25px;
     text-align: justify;
-    font-size: 15px;
+    font-size: 150%;
 }
 
 .title{
-    font-size: 23px;
+    font-size: 200%;
     font-weight: bold;
 }
 
 .date{
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 100%;
     font-style: italic;
 }
 
@@ -101,6 +101,8 @@ button{
 }
 
 #border{
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted black;
+    padding-bottom: 5%;
     
 }
+
