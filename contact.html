@@ -22,101 +22,82 @@
         </nav>
     </header>
         
-    <hr>
+    
 
-    <table>
-        <tr>
-            <td> <img src="./assets/images/avatar.png" alt="This is a random image"></td>
-            <td><h1>Biruk Tesfaye L.</h1>
+    <section id="border">
+   <img src="./assets/images/avatar.png" alt="This is a random image">
+           <h1>Biruk Tesfaye L.</h1>
                 <h3>Student, Addis Ababa University</h3>
-                <!-- <p>My name is Biruk. I am a student in Addis Ababa University. 
-                    I joined this university in 2010 E.C.</p></td> -->
-        </tr>
-    </table>
-    <hr>
-    <table>
-            <tr>
-                <td>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">visiter elegant themes</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                </td>
+    </section>
                
+       
+  
+    <div class="contactmain">
+   
+    <div class="map"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">visiter elegant themes</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+                
+
             <div class="form">
-            <h3>Contact Me...</h3>
+            <h3 class="cti">Contact Me...</h3>
         
            
             <form method="POST" action="mailto:birukdon16@gmail.com" enctype="utf-8">
-                <label for=Fname>First Name: </label> 
+                <div><label for=Fname>First Name: </label> 
                 <input type="text" id="Fname" name="fName" minlength="2" size="20"
-                    pattern="[A-Za-z]+"  required title="Only letters with no space">
-                </tr>
+                    pattern="[A-Za-z]+"  required title="Only letters with no space"></div>
+               
+          <div><label for=sName>Second Name: </label>
+            <input type="text" id="sName" name="sName" minlength="2" size="20"
+                    pattern="[A-Za-z]+"  required title="Only letters with no space"></div>    
+               
         
-                <tr>
-                <td><label for=sName>Second Name: </label></td>
-                <td><input type="text" id="sName" name="sName" minlength="2" size="20"
-                    pattern="[A-Za-z]+"  required title="Only letters with no space"></td>
-                </tr>
-        
-                <tr>
-                <td><label for=email>Email: </label></td>
-                <td><input type="email" id="email" name="email"></td>
-                </tr>
+               
+             <div><label for=email>Email: </label>
+                <input type="email" id="email" name="email"></div>   
+              
 
 
-                <tr>
-                    <td><label for=pass>Password: </label></td>
-                    <td><input type=<input type="password" id="pass" name="pass"
+            <div>  <label for=pass>Password: </label>
+                <input type=<input type="password" id="pass" name="pass"> </div> 
                         
-                        pattern="[A-Za-z0-9]+" title="Only letters and numbers">
-                    </td>
-                    </tr>
-
-                    <tr>
-                        <td><label for=tel>Phone Number: </label></td>
-                        <td><input type="tel" id="tel" name="tel" pattern="[0-9]+" title="Only numbers">
+                
+                    <div>  <label for=tel>Phone Number: </label>
+                       <input type="tel" id="tel" name="tel" pattern="[0-9]+" title="Only numbers"> </div> 
                             
                             
-                        </td>
-                        </tr>
-
-                        <tr>
-                            <td><label for=url>Website link: </label></td>
-                            <td><input type="url" id="url" name="url">
-                            </td>
-                            </tr
-
-                        
+                     
+                        <div>  <label for=url>Website link: </label>
+                           <input type="url" id="url" name="url"> </div> 
+                           
         
-                <tr> <td> Country:</td>
-                    <td> <select name="country" id="">
+              <div style="margin-bottom: 5%;"> <label for=continent>Continent: </label>
+                     <select name="country" id="continent">
                     <option value="af">Africa</option>
                     <option value="am">America</option>
                     <option value="eu">Europe</option>
-                </select></td></tr>
+                </select></div>
         
-                <table>
-                <tr><td> What do you want to say?</td></tr>
-                <tr><td><textarea name="comment" id="" cols="40" rows="5"></textarea></td></tr>
-                <tr><td><input type="submit" value="Submit"></td></tr>
-            </table>
+              
+                <div style="margin-bottom: 5%;"> <label for=textarea>What do you want to say?</label></div> 
+                <div class="textbox"><textarea name="comment" id="textarea" cols="40" rows="5"></textarea></div>
+               <div style="padding-left: 8%;"><input type="submit" value="Submit"></div>
+           
             </form>
         </div>
-           
-            <tr>
-            
-            <td <a class="social" href="https://www.facebook.com/"><img src="./assets/images/Facebook.jpg" width="50" height="50"> 
-            <a class="social" href="https://twitter.com/login?lang=en"><img src="./assets/images/Twitter.png" width="50" height="50"></a>
-            <a class="social" href="https://www.instagram.com/"><img src="./assets/images/Instagram.jpg" width="50" height="50"></a> </td>
-            
-            </tr>
-        </table>
-    
-   
-    
-    
-    </td>
-    </tr>
-</table>
-<hr>
-    <p align="center">Developed by Biruk T. &copy;2020</p>
+    </div>  
+          
+         <section id="social"> 
+         <a href="https://www.facebook.com/"><img src="./assets/images/Facebook.jpg"> </a>
+
+        <a href="https://twitter.com/login?lang=en"><img src="./assets/images/Twitter.png" ></a>
+
+        <a href="https://www.instagram.com/"><img src="./assets/images/Instagram.jpg" ></a> </section>
+          
+
+<section class="topbord">
+    <footer class="footer">
+    Developed by Biruk T. &copy;2020
+    </footer>
+    </section>
 </body>
 </html>

@@ -66,10 +66,15 @@ img{
     margin: 1.66%;
     
     float: left;
-    width: 30%;
+    width: 30%;}
     
-     
- }
+ .cti{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    position: relative;
+    margin-top: 50px;
+ }    
+ 
 
  #heading{font-size: large;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,6 +115,8 @@ button{
     float: none;
 }
 
+
+
 .topbord{
     border-top: 1px dotted black;
     padding-top: 3%;
@@ -119,3 +126,54 @@ button{
      border-bottom: 1px dotted black;
     padding-bottom: 90%;
 }
+
+.map{
+    float: left; 
+   
+      
+}
+
+.form {
+    /* width: 30%; */
+    float: left;
+    padding-left: 3%;
+   
+      
+  }
+
+#social{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: -100%;
+    padding-left: 5%;
+    width: 40%;
+    height: 5%;
+   }
+
+
+
+.contactmain{
+    margin-left: 2%;
+    margin-top: 3%; 
+    
+    margin-bottom: -10%;
+    
+}
+
+label, input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    position: relative;
+    margin-bottom: 5%;}
+    
+
+
+   
+.textbox{
+    
+    padding-left:8%;
+    margin-bottom: 5%;
+}
+
+
+ 
