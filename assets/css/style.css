@@ -155,7 +155,7 @@ button{
 .contactmain{
     margin-left: 2%;
     margin-top: 3%; 
-    
+    display: flex;
     margin-bottom: -10%;
     
 }
