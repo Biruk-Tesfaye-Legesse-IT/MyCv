@@ -176,4 +176,8 @@ label, input {
 }
 
 
- 
+@media (max-width: 600px) {
+    .contactmain{
+        display: flex;
+        flex-direction: column;}
+    }
