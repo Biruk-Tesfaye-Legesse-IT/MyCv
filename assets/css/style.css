@@ -94,16 +94,20 @@ img{
 }
 
 button{
-    /* background-color:black; */
-    /* color: white; */
-    align-items: ;
     
+    background-color:black;
+    color: white;
     height: 100px;
-    font-size:300%;
-    width: 90%;
-    
+    font-size:150%;
+    width: 30%;
     margin-top: 5%;
+    border-radius:15px; 
+  
+    margin-left: 35%; 
+   
 }
+
+
 
 #border{
     border-bottom: 1px dotted black;
@@ -137,7 +141,7 @@ button{
     /* width: 30%; */
     float: left;
     padding-left: 3%;
-   
+   margin-top: -3%;
       
   }
 
@@ -156,7 +160,7 @@ button{
     margin-left: 2%;
     margin-top: 3%; 
     display: flex;
-    margin-bottom: -10%;
+    margin-bottom: -6%;
     
 }
 
